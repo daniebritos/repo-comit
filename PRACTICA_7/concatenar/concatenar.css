@@ -1,0 +1,48 @@
+body {
+  background: rgb(172, 172, 172);
+  text-align: center;
+}
+
+.contenedor {
+  text-align: center;
+  width: 600px;
+  margin: auto;
+  background: #333;
+  height: 300px;
+  margin-top: 50px;
+  box-shadow: 5px 15px 15px rgba(0, 0, 0, 0.3);
+  border-radius: 15px;
+}
+#nombre {
+  background: rgb(154, 154, 245);
+  height: 30px;
+  width: 160px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+#apellido {
+  background: rgb(154, 154, 245);
+  height: 30px;
+  width: 160px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+.btn {
+  background: red;
+  color: white;
+  text-transform: uppercase;
+  font-size: 12px;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  margin-right: 10px;
+  cursor: pointer;
+}
+#visor {
+  background: rgb(154, 154, 245);
+  height: 150px;
+  width: 400px;
+  font-size: 25px;
+}

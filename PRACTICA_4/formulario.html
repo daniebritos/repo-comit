@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body style="background: #333; color: white;">
+    <header align="center">
+        <img src="logo.png" alt="logo">
+        <h1>Inscripción al Curso de ComunidadIT</h1>
+        <hr />
+    </header>
+    <div>
+        <form method="POST" action="inscripto.html" style="margin: 30px;">
+            <label for="curso">Curso de interés:</label>
+            <select id="" name="curso">
+                <option>....</option>
+                <option name="curso" value="java">DESARROLLADOR JAVA</option>
+                <option name="curso" value="net">DESARROLLADOR .NET</option>
+                <option name="curso" value="nodejs">DESARROLLADOR NODEJS</option>
+                <option name="curso" value="mobile">DESARROLLADOR MOBILE</option>
+                <option name="curso" value="uiux">CURSO UIUX</option>
+            </select>
+            <br>
+            <br>
+            <label for="horario">Disponibilidad horaria: </label>
+            <br>
+            <br>
+            <input type="checkbox">Mañana
+            <input type="checkbox">Tarde
+            <input type="checkbox">Noche
+            <br>
+            <br>
+            <label for="horario">Disponibilidad de Dias: </label>
+            <br>
+            <br>
+            <input name="horario" type="checkbox">Lunes
+            <input name="horario" type="checkbox">Martes
+            <input name="horario" type="checkbox">Miercoles
+            <input name="horario" type="checkbox">Jueves
+            <input name="horario" type="checkbox">Viernes
+            <input name="horario" type="checkbox">Sabado
+            <br>
+            <br>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+            <br>
+            <br>
+            <label for="apellido">Apellido:</label>
+            <input type="text" id="apellido" name="apellido" required>
+            <br>
+            <br>
+            <label for="telefono">Telefono:</label>
+            <input type="number" id="telefono" name="telefono" required>
+            <br>
+            <br>
+            <label for="residencia">Residencia:</label>
+            <select id="residencia" name="residencia">
+                <option>...</option>
+                <option value="caba">CABA</option>
+                <option value="bsas">Buenos Aires</option>
+                <option value="interior">Interior</option>
+            </select>
+            <br>
+            <br>
+            <label for="tipo">Tipo de documento:</label>
+            <input type="radio" name="tipo" id="" value="dni">DNI
+            <input type="radio" name="tipo" id="" value="pasaporte">Pasaporte
+            <input type="radio" name="tipo" id="" value="actaMat">Acta de matrimonio
+            <input type="radio" name="tipo" id="" value="otro">Otro
+            <br>
+            <label for="email">e-mail:</label>
+            <input type="email" id="email" name="email" placeholder="Ingrese su correo..." required>
+            <br>
+            <br>
+            <label for="estudios">Estudios:</label>
+            <select id="estudios" name="estudios">
+                <option>....</option>
+                <option value="primario">Primario</option>
+                <option value="secundario">Secundario</option>
+                <option value="terciario">Terciario</option>
+                <option value="universitario">Universitario</option>
+            </select>
+            <br>
+            <br>
+            <label for="trabajo">Actividad laboral:</label>
+            <input type="radio" name="trabajo" id="">Desocupado
+            <input type="radio" name="trabajo" id="">Trabajando
+            <br>
+            <br>
+            <textarea name="trabajo" id="" cols="30" rows="10" placeholder="Describa su actividad laboral..."></textarea>
+            <br>
+            <br>
+            <label for="conocimientos">¿Tenés conocimientos en alguno de estos lenguajes?</label>
+            <br>
+            <br>
+            Python<input type="checkbox" name="conocimientos">
+            <br>
+            Javascript<input type="checkbox" name="conocimientos">
+            <br>
+            PHP<input type="checkbox" name="conocimientos">
+            <br>
+            c#<input type="checkbox" name="conocimientos">
+            <br>
+            Rubi<input type="checkbox" name="conocimientos">
+            <br>
+            c++<input type="checkbox" name="conocimientos">
+            <br>
+            Java<input type="checkbox" name="conocimientos">
+            <br>
+            Otro<input type="checkbox" name="conocimientos">
+            <br>
+            <br>
+            <input style="height: 30px; width: 80px;" type="submit" value="Guardar">
+        </form>
+        <div style="margin: 30px;">
+            <button><a href="inscripto.html">Finalizar</a></button>
+        </div>
+        <br>
+        <article>
+            <audio controls autoplay>
+                <source src="./rezandosolo.mp3" type="audio/mpeg">
+            </audio>
+            <br>
+            <h3>Conoce un poco mas..</h3>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/watch?v=6svvtOjLA-A&t=4s&ab_channel=ADELSSCHOOLOFEDUCATION" 
+            title="YouTube video player" frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+            allowfullscreen></iframe>
+        </article>
+    </div>
+</body>
+</html>

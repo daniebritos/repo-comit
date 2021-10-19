@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="main.css">
+    <title>Teclado</title>
+</head>
+<body>
+    <div class="contenedor">
+        <div class="back__display">
+            <div class="reflejo"></div>
+            <textarea id="display" cols="30" rows="10" placeholder="Windows98" disabled></textarea>
+        </div>
+        <div class="oval"></div>
+        <div class="oval2"></div>
+        <div class="contenedor__teclado">
+            <div id="fila0">
+                <button value="1" id="tecla" onclick="teclear(0, 1)">1</button>
+                <button value="2" id="tecla" onclick="teclear(1, 1)">2</button>
+                <button value="3" id="tecla" onclick="teclear(2, 1)">3</button>
+                <button value="4" id="tecla" onclick="teclear(3, 1)">4</button>
+                <button value="5" id="tecla" onclick="teclear(4, 1)">5</button>
+                <button value="6" id="tecla" onclick="teclear(5, 1)">6</button>
+                <button value="7" id="tecla" onclick="teclear(6, 1)">7</button>
+                <button value="8" id="tecla" onclick="teclear(7, 1)">8</button>
+                <button value="9" id="tecla" onclick="teclear(8, 1)">9</button>
+                <button value="0" id="tecla" onclick="teclear(9, 1)">0</button>
+            </div>
+            <div id="fila1">
+                <button value="q" id="tecla" onclick="teclear(0, 2)">Q</button>
+                <button value="w" id="tecla" onclick="teclear(1, 2)">W</button>
+                <button value="e" id="tecla" onclick="teclear(2, 2)">E</button>
+                <button value="r" id="tecla" onclick="teclear(3, 2)">R</button>
+                <button value="t" id="tecla" onclick="teclear(4, 2)">T</button>
+                <button value="y" id="tecla" onclick="teclear(5, 2)">Y</button>
+                <button value="u" id="tecla" onclick="teclear(6, 2)">U</button>
+                <button value="i" id="tecla" onclick="teclear(7, 2)">I</button>
+                <button value="o" id="tecla" onclick="teclear(8, 2)">O</button>
+                <button value="p" id="tecla" onclick="teclear(9, 2)">P</button>
+            </div>
+            <div id="fila2">
+                <button value="a" id="tecla" onclick="teclear(0, 3)">A</button>
+                <button value="s" id="tecla" onclick="teclear(1, 3)">S</button>
+                <button value="d" id="tecla" onclick="teclear(2, 3)">D</button>
+                <button value="f" id="tecla" onclick="teclear(3, 3)">F</button>
+                <button value="g" id="tecla" onclick="teclear(4, 3)">G</button>
+                <button value="h" id="tecla" onclick="teclear(5, 3)">H</button>
+                <button value="j" id="tecla" onclick="teclear(6, 3)">J</button>
+                <button value="k" id="tecla" onclick="teclear(7, 3)">K</button>
+                <button value="l" id="tecla" onclick="teclear(8, 3)">L</button>
+                <button value="ñ" id="tecla" onclick="teclear(9, 3)">Ñ</button>
+            </div>
+            <div id="fila3">
+                <button value="z" id="tecla" onclick="teclear(0, 4)">Z</button>
+                <button value="x" id="tecla" onclick="teclear(1, 4)">X</button>
+                <button value="c" id="tecla" onclick="teclear(2, 4)">C</button>
+                <button value="v" id="tecla" onclick="teclear(3, 4)">V</button>
+                <button value="b" id="tecla" onclick="teclear(4, 4)">B</button>
+                <button value="n" id="tecla" onclick="teclear(5, 4)">N</button>
+                <button value="m" id="tecla" onclick="teclear(6, 4)">M</button>
+                <button value="," id="tecla" onclick="teclear(7, 4)">,</button>
+                <button value="." id="tecla" onclick="teclear(8, 4)">.</button>
+                <button value="-" id="tecla" onclick="teclear(9, 4)">-</button>
+            </div>
+            <div>
+                <button id="esc" onclick="teclear('borrar')">Esc</button>
+                <button value=" " id="spc" onclick="teclear('',' ')">SPACE</button>
+                <button value="}" id="backsp" onclick="teclear('back')">Backspace</button>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

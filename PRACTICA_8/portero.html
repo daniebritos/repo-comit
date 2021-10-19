@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="portero.css">
+    <script src="portero.js"></script>
+    <title>Portero</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="visoresTop">
+            <input type="text" id="piso" placeholder="PISO.." disabled>
+            <input type="number" id="dpto" placeholder="DPTO.." disabled>
+        </div>
+        <div class="panel">
+            <div class="panel__primera">
+                <button value="1" id="uno" onclick="pulsar(this)">1</button>
+                <button value="2" id="dos" onclick="pulsar(this)">2</button>
+                <button value="3" id="tres" onclick="pulsar(this)">3</button>
+            </div>
+            <div class="panel__segunda">
+                <button value="4" id="cuatro" onclick="pulsar(this)">4</button>
+                <button value="5" id="cinco" onclick="pulsar(this)">5</button>
+                <button value="6" id="seis" onclick="pulsar(this)">6</button>
+            </div>
+            <div class="panel__tercera">
+                <button value="7" id="siete" onclick="pulsar(this)">7</button>
+                <button value="8" id="ocho" onclick="pulsar(this)">8</button>
+                <button value="9" id="nueve" onclick="pulsar(this)">9</button>
+            </div>
+            <div class="panel__cuarta">
+                <button value="0" id="cero" onclick="pulsar(this)">0</button>
+                <button value="llamar" id="llamar" onclick="llamar()">Llamar</button>
+                <button value="borrar" id="borrar" onclick="borrar()">Borrar</button>
+            </div>
+        </div>
+
+        <input type="text" name="visorBtn" id="display" placeholder="PORTERO ELECTRICO.." disabled>
+    </div>
+
+</body>
+</html>

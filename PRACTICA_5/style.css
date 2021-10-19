@@ -1,0 +1,101 @@
+body {
+  background: #333;
+  color: white;
+}
+/* header */
+.header {
+  background: peru;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+}
+ul > li {
+  list-style: none;
+  display: inline-block;
+  margin: 0;
+  margin-left: 20px;
+  padding: 20px;
+  border-right: 2px solid black;
+}
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+/* titulo */
+.present h1 {
+  text-align: center;
+  font-size: 35px;
+  border-bottom: 2px white solid;
+  width: 300px;
+  max-width: 1024px;
+  margin: auto;
+  margin-top: 100px;
+}
+.present h3 {
+  text-align: center;
+  border-bottom: 2px white solid;
+  width: 300px;
+  max-width: 1024px;
+  margin: auto;
+  margin-top: 10px;
+  text-transform: uppercase;
+  font-family: "Courier New", Courier, monospace;
+}
+.bloqueParraf {
+  margin-top: 80px;
+  max-width: 350px;
+  margin: auto;
+}
+.parraf {
+  text-align: center;
+}
+
+.footer {
+  background: peru;
+  margin-top: 120px;
+}
+.footer p {
+  text-align: center;
+  font-size: 22px;
+  margin: 0;
+  padding: 10px;
+}
+/* ABOUT */
+.about {
+  text-align: center;
+  max-width: 300px;
+  margin: auto;
+}
+.about h2 {
+  font-size: 30px;
+  margin-top: 100px;
+  margin-bottom: 10px;
+}
+.about p {
+  margin-bottom: 100px;
+}
+/* CONTACTO */
+.contact {
+  margin-top: 50px;
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+}
+.contact h2 {
+  margin-top: 80px;
+  font-size: 30px;
+  margin-bottom: 0;
+}
+
+#nombre {
+  margin: 15px;
+}
+#apellido {
+  margin: 15px;
+}
+#email {
+  margin: 15px;
+  margin-left: 30px;
+}
+#coments {
+  margin: 15px;
+}

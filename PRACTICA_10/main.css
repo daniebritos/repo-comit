@@ -1,0 +1,12 @@
+body {
+  background: #333;
+  color: white;
+}
+.activo {
+  background: red;
+  width: 200px;
+  height: 200px;
+  text-align: center;
+  font-size: 30px;
+  font-family: "Courier New", Courier, monospace;
+}

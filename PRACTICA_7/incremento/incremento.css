@@ -1,0 +1,28 @@
+body {
+  background: #333;
+  color: white;
+  text-align: center;
+}
+.contenedor {
+  text-align: center;
+  max-width: 600px;
+  margin: auto;
+}
+#visor {
+  text-align: center;
+  height: 100px;
+  width: 180px;
+  margin-left: 20px;
+  background-color: rgb(135, 175, 163);
+  border-radius: 10px;
+  font-size: 40px;
+}
+#btn {
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  background: red;
+  color: white;
+  cursor: pointer;
+  font-size: 40px;
+}

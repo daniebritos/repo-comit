@@ -1,0 +1,16 @@
+C:\Users\Daniel\Desktop\comIT\CLASE_13\tarea\ejemploDeConsola\bin\Debug\net5.0\ejemploDeConsola.exe
+C:\Users\Daniel\Desktop\comIT\CLASE_13\tarea\ejemploDeConsola\bin\Debug\net5.0\ejemploDeConsola.deps.json
+C:\Users\Daniel\Desktop\comIT\CLASE_13\tarea\ejemploDeConsola\bin\Debug\net5.0\ejemploDeConsola.runtimeconfig.json
+C:\Users\Daniel\Desktop\comIT\CLASE_13\tarea\ejemploDeConsola\bin\Debug\net5.0\ejemploDeConsola.runtimeconfig.dev.json
+C:\Users\Daniel\Desktop\comIT\CLASE_13\tarea\ejemploDeConsola\bin\Debug\net5.0\ejemploDeConsola.dll
+C:\Users\Daniel\Desktop\comIT\CLASE_13\tarea\ejemploDeConsola\bin\Debug\net5.0\ref\ejemploDeConsola.dll
+C:\Users\Daniel\Desktop\comIT\CLASE_13\tarea\ejemploDeConsola\bin\Debug\net5.0\ejemploDeConsola.pdb
+C:\Users\Daniel\Desktop\comIT\CLASE_13\tarea\ejemploDeConsola\obj\Debug\net5.0\ejemploDeConsola.csproj.AssemblyReference.cache
+C:\Users\Daniel\Desktop\comIT\CLASE_13\tarea\ejemploDeConsola\obj\Debug\net5.0\ejemploDeConsola.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Daniel\Desktop\comIT\CLASE_13\tarea\ejemploDeConsola\obj\Debug\net5.0\ejemploDeConsola.AssemblyInfoInputs.cache
+C:\Users\Daniel\Desktop\comIT\CLASE_13\tarea\ejemploDeConsola\obj\Debug\net5.0\ejemploDeConsola.AssemblyInfo.cs
+C:\Users\Daniel\Desktop\comIT\CLASE_13\tarea\ejemploDeConsola\obj\Debug\net5.0\ejemploDeConsola.csproj.CoreCompileInputs.cache
+C:\Users\Daniel\Desktop\comIT\CLASE_13\tarea\ejemploDeConsola\obj\Debug\net5.0\ejemploDeConsola.dll
+C:\Users\Daniel\Desktop\comIT\CLASE_13\tarea\ejemploDeConsola\obj\Debug\net5.0\ref\ejemploDeConsola.dll
+C:\Users\Daniel\Desktop\comIT\CLASE_13\tarea\ejemploDeConsola\obj\Debug\net5.0\ejemploDeConsola.pdb
+C:\Users\Daniel\Desktop\comIT\CLASE_13\tarea\ejemploDeConsola\obj\Debug\net5.0\ejemploDeConsola.genruntimeconfig.cache

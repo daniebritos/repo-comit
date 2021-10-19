@@ -1,0 +1,60 @@
+body {
+  background: rgb(230, 230, 230);
+  color: white;
+  text-align: center;
+}
+body > h1 {
+  color: black;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+/* class inputs */
+.inputs {
+  padding-top: 30px;
+}
+.contenedor {
+  background: #333;
+  width: 400px;
+  margin: auto;
+  margin-top: 50px;
+  text-align: center;
+  border-radius: 10%;
+  box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.4);
+}
+#firstNumber {
+  background: rgb(137, 156, 141);
+  font-size: 40px;
+  height: 40px;
+  width: 80px;
+}
+#secondNumber {
+  background: rgb(137, 156, 141);
+  font-size: 40px;
+  height: 40px;
+  width: 80px;
+}
+/* class btns */
+.btns {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.bt {
+  background: rgb(182, 177, 177);
+  color: white;
+  font-size: 50px;
+  border-radius: 50%;
+  margin: 10px;
+  width: 60px;
+  height: 60px;
+  cursor: pointer;
+}
+/* visor */
+#visor {
+  text-align: center;
+  height: 200px;
+  width: 300px;
+  background: rgb(137, 156, 141);
+  font-size: 200px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}

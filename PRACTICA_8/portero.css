@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata&display=swap");
+body {
+  background: url(wall.jpg);
+  background-position: center;
+  background-size: cover;
+  color: rgb(0, 0, 0);
+}
+.container {
+  margin: auto;
+  max-width: 900px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 230px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.4);
+  background-color: #777;
+  background-image: linear-gradient(315deg, #777 0%, #444 74%);
+
+  border-radius: 10px;
+  border-top: #777 3px solid;
+  border-right: #444 3px solid;
+  border-bottom: #333 3px solid;
+  border-left: #666 3px solid;
+}
+.visoresTop {
+  display: flex;
+  margin-bottom: 10px;
+}
+#dpto {
+  width: 60px;
+  margin-left: 25px;
+  background: rgb(0, 110, 255);
+  color: white;
+  border: 5px;
+  border-bottom: #666 1px solid;
+  border-right: #333 2px solid;
+}
+#piso {
+  width: 60px;
+  margin-right: 25px;
+  background: rgb(0, 110, 255);
+  color: white;
+  border: 5px;
+  border-bottom: #666 1px solid;
+  border-right: #333 2px solid;
+}
+.panel {
+  align-items: center;
+  justify-content: center;
+}
+
+.panel__primero,
+#uno,
+#dos,
+#tres {
+  width: 55px;
+  margin: 4px;
+  cursor: pointer;
+}
+.panel__segundo,
+#cuatro,
+#cinco,
+#seis {
+  width: 55px;
+  margin: 4px;
+  cursor: pointer;
+}
+.panel__tercero,
+#siete,
+#ocho,
+#nueve {
+  width: 55px;
+  margin: 4px;
+  cursor: pointer;
+}
+.panel__cuarto,
+#cero,
+#llamar,
+#borrar {
+  width: 55px;
+  margin: 4px;
+  cursor: pointer;
+}
+
+#display {
+  width: 180px;
+  height: 20px;
+  margin-top: 10px;
+  font-size: 13px;
+  background: rgb(0, 110, 255);
+  color: white;
+  border: 5px;
+  border-bottom: #666 1px solid;
+  border-right: #333 2px solid;
+  font-family: "Inconsolata", monospace;
+}
+::placeholder {
+  color: white;
+  font-family: "Inconsolata", monospace;
+}
+button {
+  border-radius: 10px;
+  background: rgb(185, 185, 185);
+}

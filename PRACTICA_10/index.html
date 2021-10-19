@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="main.css">
+    <title>JQuery</title>
+</head>
+<body>
+    
+    <div class="activo">El background cambiador</div>
+    <br>
+
+    <div class="cont">
+        <button>AZUL</button>
+        <button>ROJO</button>
+    </div>
+
+
+    <h1>Practicando con jquery</h1>
+    <br>
+    <button id="ocultar">OCULTAR</button>
+    <button id="mostrar">MOSTRAR</button>(mostrar doble click)
+    <br>
+    <br>
+    <br>
+    <hr/>
+    <button class="crear">CREAR HTML</button>
+    <button class="eliminar">ELIMINAR HTML</button>
+    <span id="elementos"></span>
+    <br>
+    <br>
+    <br>
+    <hr/>
+    <div>
+        <h3>Ejercicio 4</h3>
+        <input type="text" id="visor" disabled>
+        <br>
+        <button id="btn" onclick="mostrarValor('uno', 'red')" >1</button>
+        <button id="btn" onclick="mostrarValor('dos', 'yellow')" >2</button>
+        <button id="btn" onclick="mostrarValor('tres', 'green')">3</button>
+        <button id="btn" onclick="mostrarValor('cuatro', 'blue')">4</button>
+        <button id="btn" onclick="mostrarValor('cinco', 'pink')">5</button>
+        <button id="btn" onclick="mostrarValor('seis', 'peru')">6</button>
+        <button id="btn" onclick="mostrarValor('siete', 'orange')">7</button>
+        <button id="btn" onclick="mostrarValor('ocho', '#333')">8</button>
+        <button id="btn" onclick="mostrarValor('nueve', 'black')">9</button>
+        <button id="btn" onclick="mostrarValor('diez', 'brown')">10</button>
+    </div>
+    <br>
+    <br>
+    <br>
+    <input type="text" id="pantallita" style="height: 100px;" disabled>
+    <button id="botonsito" value="elValor" onclick="tocarBoton()">click</button>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
