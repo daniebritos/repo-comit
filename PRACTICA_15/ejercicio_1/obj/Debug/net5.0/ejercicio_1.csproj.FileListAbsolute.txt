@@ -13,3 +13,4 @@ C:\Users\Daniel\Desktop\comIT\PRACITCAS\PRACTICA_15\ejerciciosPdf\obj\Debug\net5
 C:\Users\Daniel\Desktop\comIT\PRACITCAS\PRACTICA_15\ejerciciosPdf\obj\Debug\net5.0\ref\ejercicio_1.dll
 C:\Users\Daniel\Desktop\comIT\PRACITCAS\PRACTICA_15\ejerciciosPdf\obj\Debug\net5.0\ejercicio_1.pdb
 C:\Users\Daniel\Desktop\comIT\PRACITCAS\PRACTICA_15\ejerciciosPdf\obj\Debug\net5.0\ejercicio_1.genruntimeconfig.cache
+C:\Users\Daniel\Desktop\comIT\PRACITCAS\PRACTICA_15\ejerciciosPDF\obj\Debug\net5.0\ejercicio_1.csproj.AssemblyReference.cache
